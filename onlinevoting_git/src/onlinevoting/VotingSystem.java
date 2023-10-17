@@ -39,9 +39,9 @@ public  class VotingSystem{
     public  static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         while(true) {
-            for (String id : dataBase.keySet()) {
-                System.out.println("Id is " + id + "password is " + dataBase.get(id).password + " Name is " + dataBase.get(id).name + " Address is " + dataBase.get(id).address);
-            }
+            //for (String id : dataBase.keySet()) {
+            //    System.out.println("Id is " + id + "password is " + dataBase.get(id).password + " Name is " + dataBase.get(id).name + " Address is " + dataBase.get(id).address);
+            //}
             System.out.println("If you want to register press 0 and if you want to login press 1 ");
             int i = sc.nextInt();
             if (i==987654321){
