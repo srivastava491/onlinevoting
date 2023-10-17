@@ -14,6 +14,7 @@ public class Admin {
                 System.exit(200);
         } else if (n==1) {
             System.out.printf("BJP: %d Congress: %d AAP: %d",countvote.countVote2,countvote.countVote1,countvote.countVote3);
+                VotingSystem.main();
         }
     }
 
